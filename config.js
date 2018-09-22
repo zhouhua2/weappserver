@@ -1,6 +1,16 @@
 const CONF = {
+    serverHost: 'www.zhouhua233333.xyz',
+    tunnelServerUrl: 'https://ws.qcloud.com',
+    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
+    qcloudAppId: 'wxd4229eb5c9505ece',
+    qcloudSecretId: 'AKIDwhIivvvKkxwiIgnwmQs8B3jBQTJwLdgW',
+    qcloudSecretKey: 'lJgroZ7UdbMyNfkcJn47zf7MPFsIVVJt',
+    wxMessageToken: 'weixinmsgtoken',
+    networkTimeout: 30000,
+
     port: '5757',
-    rootPathname: '',
+    rootPathname: '/server/weapp',
 
     // 微信小程序 App ID
     appId: '',
@@ -20,8 +30,8 @@ const CONF = {
         host: 'localhost',
         port: 3306,
         user: 'root',
-        db: 'cAuth',
-        pass: '',
+        db: 'wxapp',
+        pass: 'zhouhua',
         char: 'utf8mb4'
     },
 

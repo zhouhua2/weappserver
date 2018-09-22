@@ -31,5 +31,23 @@ router.post('/tunnel', controllers.tunnel.post)
 router.get('/message', controllers.message.get)
 // POST 用来处理微信转发过来的客服消息
 router.post('/message', controllers.message.post)
+// POST 用来处理微信转发过来的客服消息
+router.get('/demo', controllers.demo)
+// POST 用来处理微信转发过来的客服消息
+router.get('/wxlogin', controllers.wxlogin)
+router.get('/userbooks', controllers.userbooks)
+router.get('/hotspot', controllers.hotspot)
+router.get('/findbook', controllers.findbook)
+router.get('/bookdetail', controllers.bookdetail)
+router.post('/addbook', controllers.addbook)
+router.post('/removebook', controllers.removebook)
+router.get('/total', controllers.total)
+router.get('/mybooklist', controllers.mybooklist)
+router.get('/bookhot', controllers.bookhot)
+router.get('/home', controllers.home)
+router.post('/addhome', controllers.addhome)
+router.post('/addlike', controllers.addlike)
+router.post('/removelike', controllers.removelike)
+router.get('/getlike', controllers.getlike)
 
 module.exports = router
